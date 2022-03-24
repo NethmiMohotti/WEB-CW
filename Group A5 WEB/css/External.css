@@ -1,0 +1,151 @@
+.img1{ width: 100%;}
+
+.img2{  width: 150px;
+        height: 100px;}
+
+h1{     font-style:italic;
+        position:inherit;
+        text-align: center;
+        position:relative;}
+
+fieldset{ background-color:black }
+           
+input[type=text], select, textarea {
+              width: 100%;
+              padding: 10px;
+              margin-top: 6px;
+              resize: vertical;}
+           
+input[type=submit] {
+                background-color:black;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius: 20px;} 
+           
+.container {    border-radius: 5px;
+                background-color:dimgray;
+                padding: 3px;
+                color: white;}
+           
+.column {       float: left;
+                width: 50%;
+                margin-top: 6px;
+                padding: 3px;}
+           
+#intro{        font-family: cursive;
+               color:goldenrod;
+               font-size: 40px;
+               text-align: center;}
+
+#contact{      font-family: cursive;
+               color: black;
+               font-size: 40px;
+               text-align: center;}
+           
+#demo{         font-family: inherit;
+               font-size: 23px;
+               color: darkblue;}
+           
+#btn {         padding: 10px 15px;
+               font-size: 22px;
+               text-align: center;
+               cursor: pointer;
+               outline:inherit;
+               color: #fff;
+               background-color: black;
+               border: none;
+               border-radius: 15px;
+               box-shadow: 0 9px #999; }
+
+#btn:hover { background-color: grey}
+
+ #main{     font-family:monospace;
+            color: black}
+
+.end{       background-color:beige;
+            text-align: center;}
+
+.pay{  width:150px;
+       height:80px;
+       padding-left: 10px;
+       padding-right: 15px;
+       display: block;
+       margin-left: 570px;
+       margin-right: 120px;
+       top: 8px;}
+
+form {font-family: Arial;}
+
+.container2 {   padding: 20px;
+                background-color:beige;}
+
+input[type=text2], input[type=submit2] {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-sizing: border-box;}
+
+input[type=checkbox2] {margin-top: 10px;}
+
+input[type=submit2] { background-color:black;
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 12px 20px;}
+
+input[type=submit2]:hover {opacity: 0.6;}
+                  
+.glow { font-size: 50px;
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+        text-align: center;
+        font-family:monospace;}
+
+.main{  position: relative;
+        text-align: center;
+        color: black;}
+
+.centered { position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align:justify}
+
+#welcome{  font-family: cursive;
+           color:black;
+           font-size:60px;}
+
+.para { border: 7px solid black;
+        padding: 40px;
+        font-family:cursive;
+        background-color:antiquewhite;
+        font-size: 20px;}
+.edit{text-align: center;}
+
+/*Product box*/
+.OnlineHome{ background-color:lightyellow;
+             width: 270px;
+             height: 400px;
+             margin-top: 20px;
+             float: left;
+             margin-left: 50px;}
+
+.ImageHome{ width:270px;
+            height:200px;}
+
+.ParaHome{  font-weight:bolder;
+            color: black;
+            font-size: 15px;
+            font-family:monospace;
+            margin: 20px;
+            text-align: center;
+            margin-top: 50px;}
+
+
+    
+        
+         

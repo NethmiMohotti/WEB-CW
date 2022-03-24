@@ -1,0 +1,78 @@
+html{scroll-behavior:smooth;}
+
+footer{   
+    height: 50px;
+    background-color:lightgray;
+    text-align: center;}
+
+/* Navigation bar */
+.nav{
+       position:fixed;
+       width:100%;
+       background-color:burlywood;
+       border-radius: 20px;
+       height: 100px;
+       margin-right: 1em;
+       z-index: 2;}
+     
+.nav .left{
+        float: left;
+        margin-left: 1em; }
+
+.nav .left li{
+        float: left;
+          border-right:2px solid black; }
+
+.nav ul{
+        list-style: none;
+        overflow: hidden;
+        background-color:chocolate;}
+
+
+/* unvisited link */
+         li a:link{color:black}
+/* selected link */
+        li  a:active{color:fuchsia}
+/* visited link */
+       li  a:visited{color:black}
+/* mouse over link */
+        li  a:hover{color: white}
+
+/* unvisited link */
+          a:link{color:black}
+/* selected link */
+         a:active{color:fuchsia}
+/* visited link */
+      a:visited{color:firebrick}
+/* mouse over link */
+a:hover{color: orangered}
+            
+
+/* Navigation links */
+ a {    float:inherit;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 17px;
+        display: inline;
+        font-family: sans-serif;
+        font-weight: bold;}
+
+.logoIcon{
+    float: left;
+    margin: 10px 50px 0 55px;
+    height: 60px;
+    width: 50px;}
+
+.up{
+    width: 20px;
+    height: 15px;
+    color: aliceblue;} 
+
+.social{
+    width:130px;
+    height:55px;
+    padding-left: 10px;
+    padding-right: 15px;
+    position: relative;
+    top: 8px;}
